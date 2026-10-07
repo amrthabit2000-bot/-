@@ -1,0 +1,23 @@
+{
+  "id": "/",
+  "name": "طاولة ٣١ المصرية - المحبوسة والباكجامون",
+  "short_name": "طاولة ٣١",
+  "description": "لعبة الطاولة المصرية الأصيلة (طاولة ٣١ والمحبوسة) بقواعد المقاهي الشعبية، ذكاء اصطناعي متطور، خامات خشبية فاخرة، ولعب أونلاين.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#180a04",
+  "theme_color": "#b45309",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
