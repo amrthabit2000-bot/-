@@ -1,8 +1,15 @@
-node_modules/
-build/
-dist/
-coverage/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editors and operating systems
+.vscode/
+.idea/
 .DS_Store
+
+# Logs and environment
 *.log
 .env*
-!.env.example
