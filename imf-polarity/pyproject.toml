@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imf-polarity"
+version = "1.0.0"
+description = "Daily toward/away polarity of the interplanetary magnetic field from hourly OMNI2 data"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Amr Thabet"}]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.22", "pandas>=1.5", "requests>=2.25", "openpyxl>=3.1"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+plot = ["matplotlib>=3.6"]
+
+[tool.setuptools]
+packages = ["imf_polarity"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
