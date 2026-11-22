@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [1.0.1] - 2026-11-22
+
+### Fixed
+- Use the stable Zenodo concept DOI in the citation metadata and README DOI badge/link so they resolve
+  to the latest release.
+
 ## [1.0.0] - 2026-11-18
 
 First public release.
