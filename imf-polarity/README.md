@@ -2,6 +2,8 @@
 
 Daily toward/away polarity of the interplanetary magnetic field (IMF) from NASA OMNI2 hourly data, 1963 to the present, with a quality column for every day.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24443176.svg)](https://doi.org/10.5281/zenodo.24443176)
+
 A day is **toward (T)** when the field points toward the Sun along the Parker spiral and **away (A)** when it points away from it. The package downloads the OMNI2 hourly files, labels each day, and gives helper functions to sort any daily index (aa, Kp, Dst, solar wind speed, ...) by polarity.
 
 ## Method
